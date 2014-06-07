@@ -1,0 +1,15 @@
+--- src/ocrfeeder/util/configuration.py	2013-02-08 02:57:12.000000000 -0500
++++ src/ocrfeeder/util/configuration2.py	2014-06-06 15:15:27.470250315 -0400
+@@ -62,6 +62,12 @@
+                                'arguments': '-f UTF8 $IMAGE',
+                                'old_arguments': [],
+                                'version': 0.0},
++                      'zbar': {'name': 'ZBar',
++                               'image_format': 'PGM',
++                               'engine_path': 'zbarimg',
++                               'arguments': '$IMAGE',
++                               'old_arguments': [],
++                               'version': 0.0},
+                       'cuneiform': {'name': 'Cuneiform',
+                                'image_format': 'BMP',
+                                'engine_path': 'cuneiform',
